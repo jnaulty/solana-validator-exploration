@@ -18,8 +18,125 @@ With this information, I can:
 The network address gives valuable information regarding the physical distribution of the Solana Validators.
 
 
+# September 3, 2022 Report
 
-Information Below Measured on September 2, 2022
+
+`tl;dr` updates since Yesterday's report:
+
+* Percent of Solana Validators covered from scan: 95.35%
+
+
+Improvements:
+
+* shodan api instead of ipapi.co allowed for less rate limiting and perhaps more accurate info
+
+
+Increased IP Analysis from `328` to `1846` nodes
+
+* `27` unique countries
+* `153` unique ISPs
+
+
+## Validator Distribution by Country
+
+With the updated stats:
+
+* USA has the most validators: `31.6%`
+* Germany comes in second: `24.5%`
+* Finland comes in third: `10.1%`
+
+```
+Country Distribution Stats
+US    0.315591
+DE    0.244624
+FI    0.100538
+FR    0.092473
+CH    0.050000
+CA    0.048387
+GB    0.025806
+RU    0.025806
+PL    0.023656
+NL    0.015591
+```
+![solana-validators-by-country](figures/shodan_data_sep3_2022/Solana-Validator-Node-Distribution.png)
+
+![solana-validators-by-country-geo](figures/shodan_data_sep3_2022/Solana-Validator-World-Distribution.png)
+
+## Validator Distribution by ISP
+
+
+```
+Organization Distribution Stats
+Hetzner Online GmbH                 0.250813
+OVH SAS                             0.085590
+Alabanza, Inc.                      0.066089
+Hetzner Online AG                   0.057421
+ReliableSite.Net LLC                0.057421
+Max Goeldi trading as Goeldi Tec    0.050379
+WebNX, Inc.                         0.042795
+Interserver, Inc                    0.035211
+University of Winnipeg              0.025460
+Packet Host, Inc.                   0.023835
+```
+
+![solana-validators-node-isp-distribution](figures/shodan_data_sep3_2022/Solana-Validator-Node-ISP-Distribution.png)
+
+## Europe Distribution Info
+
+Two European ISPs take up `59%` of the Solana Validators ISP Distribution they are [Hetzner Online GmbH](https://en.wikipedia.org/wiki/Hetzner) and [OVH SAS](https://en.wikipedia.org/wiki/OVHcloud).
+
+
+
+
+![solana validators in europe](figures/shodan_data_sep3_2022/Ssolana-validators-in-europe.svg)
+
+
+### German Distribution
+
+Top German ISPs
+
+```
+Hetzner Online GmbH          0.606593
+Hetzner Online AG            0.232967
+OVH GmbH                     0.085714
+myLoc managed IT AG          0.013187
+IP-Projects GmbH & Co. KG    0.010989
+Contabo GmbH                 0.008791
+marbis GmbH                  0.008791
+Oracle Public Cloud          0.006593
+```
+
+![solana validators in Germany Bar Chart](figures/shodan_data_sep3_2022/SSolana-Validator-German-ISP-Distribution-bar.png)
+
+![solana validators in Germany](figures/shodan_data_sep3_2022/SSolana-Validator-German-Distribution.png)
+
+## USA Distribution Info
+
+Top 10 ISPs in USA
+```
+Alabanza, Inc.                      0.207836
+ReliableSite.Net LLC                0.180579
+WebNX, Inc.                         0.134583
+Interserver, Inc                    0.110733
+DXC US Latin America Corporation    0.052811
+Enzu Inc                            0.027257
+Equinix Services, Inc.              0.025554
+RackNerd LLC                        0.018739
+TeraSwitch Networks Inc.            0.018739
+Perfect International, Inc          0.013629
+```
+
+![solana validators in USA bar chart](figures/shodan_data_sep3_2022/SSolana-Validator-USA-Distribution-barchart.png)
+
+![solana validators in USA](figures/shodan_data_sep3_2022/SSolana-Validator-USA-Distribution.png)
+
+
+----------------------------------------------------------------------------
+
+
+
+# September 2, 2022 Report
+
 
 ## Validator Distribution by Country
 
