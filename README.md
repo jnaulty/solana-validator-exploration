@@ -1,22 +1,25 @@
 # Solana Validator Node Discovery
 
 
-Building off of work from [bitcoin peer discovery](https://github.com/jnaulty/bitcoin-peers-discovery), I was curious about understanding the distribution of Solana validators on active on the network.
+Building off of work from [bitcoin peer discovery](https://github.com/jnaulty/bitcoin-peers-discovery), I was curious about understanding the distribution of Solana validators active on the network.
 
-Solana makes this incredibly easy with the join of two JSON-RPC calls: [getClusterNodes](https://docs.solana.com/developing/clients/jsonrpc-api#getclusternodes) and [getVoteAccounts](https://docs.solana.com/developing/clients/jsonrpc-api#getvoteaccounts)
+Solana makes this incredibly easy with the combination of two JSON-RPC calls: 
+* [getClusterNodes](https://docs.solana.com/developing/clients/jsonrpc-api#getclusternodes) 
+* [getVoteAccounts](https://docs.solana.com/developing/clients/jsonrpc-api#getvoteaccounts)
 
 
 With this information, I can:
 
+* identify all validators on the network  
 * acquire network address of all nodes on Solana
-* identify all validators on the network 
+
 
 
 The network address gives valuable information regarding the physical distribution of the Solana Validators.
 
 
 
-Measured on September 2, 2022
+Information Below Measured on September 2, 2022
 
 ## Validator Distribution by Country
 
