@@ -88,7 +88,7 @@ Two European ISPs take up `59%` of the Solana Validators ISP Distribution they a
 
 
 
-![solana validators in europe](figures/shodan_data_sep3_2022/Ssolana-validators-in-europe.svg)
+![solana validators in europe](figures/shodan_data_sep3_2022/solana-validators-in-europe.png)
 
 
 ### German Distribution
@@ -106,7 +106,7 @@ marbis GmbH                  0.008791
 Oracle Public Cloud          0.006593
 ```
 
-![solana validators in Germany Bar Chart](figures/shodan_data_sep3_2022/SSolana-Validator-German-ISP-Distribution-bar.png)
+![solana validators in Germany Bar Chart](figures/shodan_data_sep3_2022/Solana-Validator-German-ISP-Distribution-bar.png)
 
 ![solana validators in Germany](figures/shodan_data_sep3_2022/SSolana-Validator-German-Distribution.png)
 
@@ -126,9 +126,9 @@ TeraSwitch Networks Inc.            0.018739
 Perfect International, Inc          0.013629
 ```
 
-![solana validators in USA bar chart](figures/shodan_data_sep3_2022/SSolana-Validator-USA-Distribution-barchart.png)
+![solana validators in USA bar chart](figures/shodan_data_sep3_2022/Solana-Validator-USA-Distribution-barchart.png)
 
-![solana validators in USA](figures/shodan_data_sep3_2022/SSolana-Validator-USA-Distribution.png)
+![solana validators in USA](figures/shodan_data_sep3_2022/Solana-Validator-USA-Distribution.png)
 
 
 ----------------------------------------------------------------------------
@@ -200,7 +200,7 @@ Two European ISPs take up `59%` of the Solana Validators ISP Distribution they a
 
 
 
-![solana validators in europe](figures/solana-validators-in-europe.svg)
+![solana validators in europe](figures/solana-validators-in-europe.png)
 
 
 ### German Distribution
