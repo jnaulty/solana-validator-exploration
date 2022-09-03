@@ -20,15 +20,41 @@ Measured on September 2, 2022
 
 ## Validator Distribution by Country
 
+Solana Validators network addresses were traced to 19 unique countries.
+
 * `26.5%` network addresses were traced to German ISPs
 * `20.5%` network addresses were traced to American ISPs
 * `27.9%` network addresses were traced to Finnish and French ISPs
+
+Distribution Breakdown by [Country Code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+
+```
+DE    0.265018
+US    0.204947
+FI    0.151943
+FR    0.127208
+GB    0.049470
+PL    0.042403
+CA    0.042403
+NL    0.031802
+RU    0.024735
+LT    0.010601
+UA    0.010601
+IE    0.010601
+JP    0.007067
+IN    0.003534
+RO    0.003534
+ES    0.003534
+SG    0.003534
+TR    0.003534
+SC    0.003534
+```
 
 ![solana-validators-by-country](figures/Solana-Validator-Node-Distribution.png)
 
 ![solana-validators-by-country-geo](figures/Solana-Validator-World-Distribution.png)
 
-One quick conclusion from the World Distribution From this dataset, it appears there is not a lot of nodes on the African, Antarctic, Asian, and South American continents.
+One quick conclusion from the World Distribution From this dataset, it appears there is not a lot of nodes on the African, Asian, and South American continents.
 
 ## Validator Distribution by ISP
 
@@ -49,12 +75,12 @@ IS-AS-1                   0.028269
 
 ## Europe Distribution Info
 
-Two European ISPs take up `59%` of the Solana Validators ISP Distribution they are [OVH SAS]() and [Hetzner Online GmbH]()
+Two European ISPs take up `59%` of the Solana Validators ISP Distribution they are [Hetzner Online GmbH](https://en.wikipedia.org/wiki/Hetzner) and [OVH SAS](https://en.wikipedia.org/wiki/OVHcloud).
 
 
 
 
-![solana validators in europe](figures/solana-validators-in-europe.png)
+![solana validators in europe](figures/solana-validators-in-europe.svg)
 
 
 ### German Distribution
