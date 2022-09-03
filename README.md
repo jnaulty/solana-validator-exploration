@@ -47,7 +47,7 @@ IS-AS-1                   0.028269
 
 
 
-## Europe and German Distribution Info
+## Europe Distribution Info
 
 Two European ISPs take up `59%` of the Solana Validators ISP Distribution they are [OVH SAS]() and [Hetzner Online GmbH]()
 
